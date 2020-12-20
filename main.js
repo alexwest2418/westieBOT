@@ -23,7 +23,7 @@ for(const file of commandFiles){
 
 client.on('ready', () => {
     console.log('westieBOT is online!');
-    client.user.setActivity('-help || DM awestie#2227 for help', {type: 'LISTENING'}).catch(console.error);
+    client.user.setActivity('-help || DM user for help', {type: 'LISTENING'}).catch(console.error);
     memberCounter(client);
 });
 
@@ -125,4 +125,4 @@ client.on('message', (message) =>{
     }
 });
 
-client.login('Nzg3MTg3MTYzMjMzMzg2NTM2.X9RTLA.k4lVOm7N1Df7UmBFnq0Xs-ukldA')
+client.login('TOKEN')
